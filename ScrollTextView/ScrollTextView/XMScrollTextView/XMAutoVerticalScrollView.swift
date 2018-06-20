@@ -75,6 +75,7 @@ class XMAutoVerticalScrollView: UIView, UIScrollViewDelegate {
             let label = UILabel()
             label.text = text
             label.font = textFont
+            label.textAlignment = .center
             label.frame = scrollView.bounds
             labels.append(label)
             
@@ -89,6 +90,8 @@ class XMAutoVerticalScrollView: UIView, UIScrollViewDelegate {
                 let labelFirst = UILabel()
                 labelFirst.text = textFirst
                 labelFirst.font = textFont
+                labelFirst.textAlignment = .center
+                
                 labelFirst.frame = scrollView.bounds
                 labels.append(labelFirst)
                 var center = labelFirst.center

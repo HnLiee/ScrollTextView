@@ -26,17 +26,21 @@ class HelloViewController: UIViewController {
         label?.backgroundColor = UIColor.purple
         
         self.view.addSubview(label!)
+        
+        
         verticalView = .init(frame: CGRect(x: 20.0, y: 300.0, width: 300.0, height: 60.0))
         verticalView?.textDataSource = ["今天是一个好天气","温度达到了30度以上","可是我并没有感觉很热","因为什么呢","公司开空调了","这个是不是可以有啊"]
         verticalView?.textColor = .red
         verticalView?.textFont = UIFont.systemFont(ofSize: 20)
         self.view.addSubview(verticalView!)
         
+        
         let button: UIButton = UIButton.init(frame: CGRect(x: 100, y: 500, width: 200, height: 60))
         button.addTarget(self, action: #selector(touchMe(_:)), for: .touchUpInside)
         button.titleLabel?.text = "touchMe"
         button.backgroundColor = UIColor.brown
         self.view.addSubview(button)
+        
     }
 
     override func didReceiveMemoryWarning() {
