@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		196A135520DBB95700A914AF /* Timer+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196A135420DBB95700A914AF /* Timer+extension.swift */; };
 		19733D2F20DA658000966D6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19733D2E20DA658000966D6C /* AppDelegate.swift */; };
 		19733D3420DA658000966D6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19733D3220DA658000966D6C /* Main.storyboard */; };
 		19733D3620DA658200966D6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19733D3520DA658200966D6C /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		196A135420DBB95700A914AF /* Timer+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Timer+extension.swift"; sourceTree = "<group>"; };
 		19733D2B20DA658000966D6C /* ScrollTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19733D2E20DA658000966D6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19733D3320DA658000966D6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 		19733D4020DA65AA00966D6C /* XMScrollTextView */ = {
 			isa = PBXGroup;
 			children = (
+				196A135420DBB95700A914AF /* Timer+extension.swift */,
 				19733D4120DA65C000966D6C /* XMAutoHorizontalScrollView.swift */,
 				19733D4220DA65C000966D6C /* XMAutoVerticalScrollView.swift */,
 			);
@@ -152,6 +155,7 @@
 				19733D4620DA65CB00966D6C /* HelloViewController.swift in Sources */,
 				19733D2F20DA658000966D6C /* AppDelegate.swift in Sources */,
 				19733D4320DA65C000966D6C /* XMAutoHorizontalScrollView.swift in Sources */,
+				196A135520DBB95700A914AF /* Timer+extension.swift in Sources */,
 				19733D4420DA65C000966D6C /* XMAutoVerticalScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +303,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6LB76PG24B;
 				INFOPLIST_FILE = ScrollTextView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,6 +322,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6LB76PG24B;
 				INFOPLIST_FILE = ScrollTextView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

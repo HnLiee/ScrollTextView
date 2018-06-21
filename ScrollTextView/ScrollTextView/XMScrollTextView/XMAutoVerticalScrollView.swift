@@ -124,10 +124,9 @@ extension XMAutoVerticalScrollView {
         isScrolling = true
         timer?.invalidate()
         timer = nil
-        timer = Timer.scheduledTimer(withTimeInterval: scrollSpeed, repeats: true, block: { (tm) in
+        timer = Timer.every(scrollSpeed, { (tm) in
             let point = self.scrollView.contentOffset
             self.scrollView.setContentOffset(CGPoint(x: 0, y: point.y + self.frame.height), animated: true)
-            
         })
     }
     
